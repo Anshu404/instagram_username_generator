@@ -1,31 +1,38 @@
+
+
+
+
 // src/App.jsx
 
 import React, { useState } from 'react';
 import Header from './components/Header';
 import NameForm from './components/NameForm';
-import ResultsDisplay from './components/ResultsDisplay'; // Naye component ko import karo
+import ResultsDisplay from './components/ResultsDisplay';
 
 function App() {
-  // Saari state ab 'App' component ke paas rahegi
+  // ... (aapki saari state waise hi rahegi)
   const [name, setName] = useState('');
   const [hobby, setHobby] = useState('');
   const [customHobby, setCustomHobby] = useState('');
-  const [type, setType] = useState(''); // Naya 'nameType' ke liye state
+  const [type, setType] = useState('');
   const [special, setSpecial] = useState('');
-  
   const [isLoading, setIsLoading] = useState(false);
-  const [generatedNames, setGeneratedNames] = useState([]); // Results ko array mein store karenge
+  const [generatedNames, setGeneratedNames] = useState([]);
 
-  // Form submit ka poora logic ab yahaan hai
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    setGeneratedNames([]); // Purane results ko saaf karo
+    setGeneratedNames([]);
 
     const finalHobby = hobby === 'Other' ? customHobby : hobby;
 
+    // --- YEH HAI SABSE ZAROORI LINE ---
+    // Yeh Netlify se VITE_API_URL lega. Agar nahi mila, to local wala use karega.
+    const apiUrl = import.meta.env.VITE_API_URL;
+
     try {
-      const response = await fetch('http://127.0.0.1:5000/generate', {
+      // Hum yahaan 'apiUrl' ka istemal kar rahe hain
+      const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -34,7 +41,7 @@ function App() {
           name: name,
           hobby: finalHobby,
           special: special,
-          nameType: type, // 'nameType' ko backend mein bhejo
+          nameType: type,
         }),
       });
 
@@ -43,14 +50,13 @@ function App() {
       }
 
       const data = await response.json();
-      setGeneratedNames(data.generated_names || []); // State ko naye names se update karo
+      setGeneratedNames(data.generated_names || []);
 
     } catch (error) {
       console.error("Error fetching data:", error);
-      // Aap yahaan ek error message bhi state mein set karke dikha sakte hain
       alert("Oops! Kuch gadbad ho gayi. Please try again.");
     } finally {
-      setIsLoading(false); // Loading ko band karo
+      setIsLoading(false);
     }
   };
 
@@ -63,10 +69,10 @@ function App() {
             name={name} setName={setName}
             hobby={hobby} setHobby={setHobby}
             customHobby={customHobby} setCustomHobby={setCustomHobby}
-            type={type} setType={setType} // type aur setType ko props mein bhejo
+            type={type} setType={setType}
             special={special} setSpecial={setSpecial}
             isLoading={isLoading}
-            handleFormSubmit={handleFormSubmit} // Submit logic ko prop mein bhejo
+            handleFormSubmit={handleFormSubmit}
           />
           <ResultsDisplay 
             isLoading={isLoading} 
