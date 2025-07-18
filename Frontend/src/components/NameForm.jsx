@@ -15,7 +15,7 @@ function NameForm({
   
   const hobbyOptions = [
     "🎨 Art", "📚 Reading", "💻 Coding", "🎮 Gaming", "✈️ Traveling",
-    "🍔 Foodie", "💪 Fitness", "🎵 Music", "Other"
+    "🍔 Foodie", "💪 Fitness", "🎵 Music","sexy_aadmi" ,"Other"
   ];
 
   // Is component se local submit logic hata diya gaya hai.
@@ -31,7 +31,7 @@ function NameForm({
         </label>
         <input
           id="name" type="text" value={name} onChange={(e) => setName(e.target.value)}
-          placeholder="e.g., Anshu"
+          placeholder="e.g., Rishav"
           className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 outline-none transition"
           required
         />

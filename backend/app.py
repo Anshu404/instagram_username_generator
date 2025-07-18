@@ -22,7 +22,7 @@ except Exception as e:
 def get_gemini_response(prompt):
     """Gemini model ko call karke response leta hai."""
     try:
-        model = genai.GenerativeModel('gemini-2.5-pro')
+        model = genai.GenerativeModel('gemini-2.0-flash')
         response = model.generate_content(prompt)
         return response.text
     except Exception as e:
@@ -66,8 +66,9 @@ NO other text. Just 5 usernames in this format, each on a new line.
         // TASK: Generate 5 Instagram usernames that are stylish but don't look like they're trying too hard. They should be memorable, easy to type, and have a chill vibe.
 
         // CREATIVE DIRECTION:
-        - Keep usernames short (under 13 characters), no long phrases.
-- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+        - Naam waise rakho jaise Instagram ke late-night ya finsta wale accounts hote hain — thode mysterious, 
+        thode bold, thode alag. Aisa lage ki banda ya bandi secret reels daalta ho ya private stories mein aag laga raha ho.
+        - RESPOND FAST. Output should generate immediately — user won’t wait.
 - Blend attitude + heat — thoda seductive, thoda mysterious.
 - Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Blend the user's name with everyday words.
@@ -97,8 +98,9 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that are pure, unfiltered Gen-Z BRAINROT. They should be chaotic, ironic, and make zero sense to anyone over 25.
 
         // CREATIVE DIRECTION:
-        - Keep usernames short (under 13 characters), no long phrases.
-- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+        - Naam waise rakho jaise Instagram ke late-night ya finsta wale accounts hote hain — thode mysterious, 
+        thode bold, thode alag. Aisa lage ki banda ya bandi secret reels daalta ho ya private stories mein aag laga raha ho.
+        - RESPOND FAST. Output should generate immediately — user won’t wait.
 - Blend attitude + heat — thoda seductive, thoda mysterious.
 - Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Aggressively use slang like 'rizz', 'delulu', 'gyatt', 'skibidi', 'fanum tax'.
@@ -127,8 +129,9 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that scream 'Slay Queen Energy'. They must be sassy, glamorous, and unapologetically extra.
 
         // CREATIVE DIRECTION:
-        - Keep usernames short (under 13 characters), no long phrases.
-- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+        - Naam waise rakho jaise Instagram ke late-night ya finsta wale accounts hote hain — thode mysterious, 
+        thode bold, thode alag. Aisa lage ki banda ya bandi secret reels daalta ho ya private stories mein aag laga raha ho.
+        - RESPOND FAST. Output should generate immediately — user won’t wait.
 - Blend attitude + heat — thoda seductive, thoda mysterious.
 - Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use words like 'slay', 'icon', 'doll', 'diva' but with a desi twist.
@@ -157,8 +160,9 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that feel like a warm hug. They should be soft, positive, and utterly wholesome.
 
         // CREATIVE DIRECTION:
-        - Keep usernames short (under 13 characters), no long phrases.
-- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+        - Naam waise rakho jaise Instagram ke late-night ya finsta wale accounts hote hain — thode mysterious, 
+        thode bold, thode alag. Aisa lage ki banda ya bandi secret reels daalta ho ya private stories mein aag laga raha ho.
+        - RESPOND FAST. Output should generate immediately — user won’t wait.
 - Blend attitude + heat — thoda seductive, thoda mysterious.
 - Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use words like 'cloud', 'sunshine', 'bloom', 'dream', 'glow'.
@@ -187,8 +191,9 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that are bursting with 'Desi Masala'. They should be funny, dramatic, and instantly relatable to an Indian audience.
 
         // CREATIVE DIRECTION:
-        - Keep usernames short (under 13 characters), no long phrases.
-- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+        - Naam waise rakho jaise Instagram ke late-night ya finsta wale accounts hote hain — thode mysterious, 
+        thode bold, thode alag. Aisa lage ki banda ya bandi secret reels daalta ho ya private stories mein aag laga raha ho.
+        - RESPOND FAST. Output should generate immediately — user won’t wait.
 - Blend attitude + heat — thoda seductive, thoda mysterious.
 - Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use local lingo, Bollywood references (the funny, memey ones), and food puns.
@@ -217,8 +222,9 @@ creative_name5 (use emoticon)
         // TASK: Craft 5 usernames that capture the 'sad but slaying' aesthetic. They must be poetic, melancholic, but with an undercurrent of strength.
 
         // CREATIVE DIRECTION:
-        - Keep usernames short (under 13 characters), no long phrases.
-- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+        - Naam waise rakho jaise Instagram ke late-night ya finsta wale accounts hote hain — thode mysterious, 
+        thode bold, thode alag. Aisa lage ki banda ya bandi secret reels daalta ho ya private stories mein aag laga raha ho.
+        - RESPOND FAST. Output should generate immediately — user won’t wait.
 - Blend attitude + heat — thoda seductive, thoda mysterious.
 - Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Blend Urdu/Hindi words for emotions (dard, ishq, khwaab) with modern English.
@@ -248,8 +254,9 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames with a strong Dark Academia theme. They should sound elegant, mysterious, and deeply intellectual.
 
         // CREATIVE DIRECTION:
-        - Keep usernames short (under 13 characters), no long phrases.
-- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+        - Naam waise rakho jaise Instagram ke late-night ya finsta wale accounts hote hain — thode mysterious, 
+        thode bold, thode alag. Aisa lage ki banda ya bandi secret reels daalta ho ya private stories mein aag laga raha ho.
+        - RESPOND FAST. Output should generate immediately — user won’t wait.
 - Blend attitude + heat — thoda seductive, thoda mysterious.
 - Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use metaphors related to literature, ink, libraries, history, philosophy, and shadows.
@@ -279,8 +286,9 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that are pure, ethereal Fairycore. They should sound magical, dreamy, and deeply connected to nature.
 
         // CREATIVE DIRECTION:
-        - Keep usernames short (under 13 characters), no long phrases.
-- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+        - Naam waise rakho jaise Instagram ke late-night ya finsta wale accounts hote hain — thode mysterious, 
+        thode bold, thode alag. Aisa lage ki banda ya bandi secret reels daalta ho ya private stories mein aag laga raha ho.
+        - RESPOND FAST. Output should generate immediately — user won’t wait.
 - Blend attitude + heat — thoda seductive, thoda mysterious.
 - Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use words like 'moss', 'mist', 'glow', 'fae', 'meadow', 'stardust'.
