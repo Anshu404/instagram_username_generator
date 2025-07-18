@@ -66,6 +66,10 @@ NO other text. Just 5 usernames in this format, each on a new line.
         // TASK: Generate 5 Instagram usernames that are stylish but don't look like they're trying too hard. They should be memorable, easy to type, and have a chill vibe.
 
         // CREATIVE DIRECTION:
+        - Keep usernames short (under 13 characters), no long phrases.
+- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+- Blend attitude + heat — thoda seductive, thoda mysterious.
+- Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Blend the user's name with everyday words.
         - Use underscores or dots tastefully.
         - Hint at their hobby without being too literal.
@@ -93,6 +97,10 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that are pure, unfiltered Gen-Z BRAINROT. They should be chaotic, ironic, and make zero sense to anyone over 25.
 
         // CREATIVE DIRECTION:
+        - Keep usernames short (under 13 characters), no long phrases.
+- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+- Blend attitude + heat — thoda seductive, thoda mysterious.
+- Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Aggressively use slang like 'rizz', 'delulu', 'gyatt', 'skibidi', 'fanum tax'.
         - Make it sound like a "low-quality on purpose" alt account.
         - Connect the user's hobby to a bizarre meme.
@@ -119,6 +127,10 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that scream 'Slay Queen Energy'. They must be sassy, glamorous, and unapologetically extra.
 
         // CREATIVE DIRECTION:
+        - Keep usernames short (under 13 characters), no long phrases.
+- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+- Blend attitude + heat — thoda seductive, thoda mysterious.
+- Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use words like 'slay', 'icon', 'doll', 'diva' but with a desi twist.
         - Think pink, glitter, and confidence.
         - The vibe is "I'm hot and I know it, and I might be smarter than you."
@@ -145,6 +157,10 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that feel like a warm hug. They should be soft, positive, and utterly wholesome.
 
         // CREATIVE DIRECTION:
+        - Keep usernames short (under 13 characters), no long phrases.
+- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+- Blend attitude + heat — thoda seductive, thoda mysterious.
+- Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use words like 'cloud', 'sunshine', 'bloom', 'dream', 'glow'.
         - Create a feeling of a safe, cozy corner of the internet.
         - Emojis like ☁️✨🌱 are welcome if they fit naturally.
@@ -171,6 +187,10 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that are bursting with 'Desi Masala'. They should be funny, dramatic, and instantly relatable to an Indian audience.
 
         // CREATIVE DIRECTION:
+        - Keep usernames short (under 13 characters), no long phrases.
+- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+- Blend attitude + heat — thoda seductive, thoda mysterious.
+- Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use local lingo, Bollywood references (the funny, memey ones), and food puns.
         - Think 'chai-sutta' breaks, 'autowaala' negotiations, and filmy drama.
         - Make it sound like a name a friend would jokingly call you.
@@ -197,6 +217,10 @@ creative_name5 (use emoticon)
         // TASK: Craft 5 usernames that capture the 'sad but slaying' aesthetic. They must be poetic, melancholic, but with an undercurrent of strength.
 
         // CREATIVE DIRECTION:
+        - Keep usernames short (under 13 characters), no long phrases.
+- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+- Blend attitude + heat — thoda seductive, thoda mysterious.
+- Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Blend Urdu/Hindi words for emotions (dard, ishq, khwaab) with modern English.
         - Evoke a mood of late-night thoughts, city lights, and bittersweet memories.
         - The vibe is "my eyeliner is sharp enough to kill a man, even if I'm crying."
@@ -224,6 +248,10 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames with a strong Dark Academia theme. They should sound elegant, mysterious, and deeply intellectual.
 
         // CREATIVE DIRECTION:
+        - Keep usernames short (under 13 characters), no long phrases.
+- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+- Blend attitude + heat — thoda seductive, thoda mysterious.
+- Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use metaphors related to literature, ink, libraries, history, philosophy, and shadows.
         - Weave the user's hobby into this intellectual world. (e.g., if hobby is coding, 'digital_scribe').
         - The tone should be serious, thoughtful, and a little bit haunted.
@@ -251,6 +279,10 @@ creative_name5 (use emoticon)
         // TASK: Generate 5 usernames that are pure, ethereal Fairycore. They should sound magical, dreamy, and deeply connected to nature.
 
         // CREATIVE DIRECTION:
+        - Keep usernames short (under 13 characters), no long phrases.
+- Use name initials or fragments (like "ans", "a_m") + bold words like "muse", "burn", "drip", "sin", "crush", "velvet", etc.
+- Blend attitude + heat — thoda seductive, thoda mysterious.
+- Use _ or . tastefully. 5th name can have one 🔥 emoticon.
         - Use words like 'moss', 'mist', 'glow', 'fae', 'meadow', 'stardust'.
         - Make the names sound like they were whispered by the wind.
         - Connect the user's 'special' detail to a magical element.
